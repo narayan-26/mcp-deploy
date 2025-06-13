@@ -1,0 +1,18 @@
+{
+    "mcp": {
+        "enabled": true,
+        "server_url": "http://localhost:3000",
+        "endpoints": {
+            "chat": "/v1/chat/completions",
+            "models": "/v1/models",
+            "health": "/health"
+        },
+        "timeout": 30000,
+        "retry_attempts": 3,
+        "api_version": "v1",
+        "model": "claude-3-opus-20240229",
+        "stream": false,
+        "version": "1.0.0",
+        "type": "openai"
+    }
+} 
